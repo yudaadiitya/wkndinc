@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;800;900&display=swap');
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+html {
+    height: 100%;
+    font-family: Work sans, sans-serif;
+}
+.h-17{
+    height: 4.1875rem;
+}
+.bg-hero{
+    background-image: url(../images//bg-1.svg);
+    background-repeat: no-repeat
+}
+.btn-hero{
+    width: 231px;
+    height: 58px;
+    border-radius: 29px;
+    left: 50%
+}
+.deffinition{
+    width: 619px;
+    height: 160px;
+    font-size: 21px;
+    line-height: 32px;
+    letter-spacing: -0.75px;
+    padding: 0 0;
+}
+.deffinition-sm{
+    width: 311px;
+    height: 168px;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.57px;
+    text-align: right;
+    padding: 0 32px;
+}
